@@ -6,11 +6,22 @@ Laravel Passport
 - Utilizamos o Passport quando queremos abstrair o gerenciamento de tokens de acesso à nossa API.
 
 Lcobucci/jwt
-- Uma biblioteca simples para trabalhar com JSON Web Token e JSON Web Signature com base no RFC 7519.
+- Uma biblioteca simples para trabalhar com JSON Web Token e JSON Web Signature com base no RFC 7519. As vezes é necessário reinstalar por problemas de
+conflitos entre pacotes de atualização.
 
 Tinker
-- O Tinker permite que você interaja com todo o seu aplicativo Laravel na linha de comando.
+- O Tinker permite que você interaja com todo o seu aplicativo Laravel na linha de comando, inclusive com o banco de dados.
 
 League/oauth2-server
-- É uma implementação compatível com os padrões de um servidor de autorização OAuth 2.0 escrito em PHP que torna o trabalho com OAuth 2.0 trivial. 
+- É uma implementação compatível com os padrões de um servidor de autenticação OAuth 2.0 escrito em PHP que torna o trabalho com OAuth 2.0 trivial. 
 Você pode configurar facilmente um servidor OAuth 2.0 para proteger sua API com tokens de acesso ou permitir que os clientes solicitem novos tokens de acesso e os atualizem.
+
+Sinergi / token
+- Biblioteca PHP para gerar strings aleatórias
+
+Xethron/migrations-generator
+- Geração de Laravel Migrations de um banco de dados existente, incluindo index and foreign keys! Obs: Compatível com versões do Laravel 5 para abaixo.
+
+Reliese/Laravel
+- É uma coleção de componentes do Laravel cujo objetivo é ajudar no processo de desenvolvimento de aplicações Laravel, 
+fornecendo alguns recursos convenientes de geração de código.
