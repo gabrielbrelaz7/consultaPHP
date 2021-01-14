@@ -24,4 +24,4 @@ Xethron/migrations-generator
 
 Reliese/Laravel
 - É uma coleção de componentes do Laravel cujo objetivo é ajudar no processo de desenvolvimento de aplicações Laravel, 
-fornecendo alguns recursos convenientes de geração de código.
+fornecendo alguns recursos convenientes de geração de código, inclusive models a partir do banco de dados.
